@@ -1,0 +1,67 @@
+---
+title: "Getting Started with R"
+author: "Jody"
+date: "1/14/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## GEOG 458
+#### Date: 01/14/19
+###### Name: Jody Tran
+
+This is *jtranx*'s first assignment for **Geog458**. Our course page can be accessed [here](https://canvas.uw.edu/courses/1269928).
+
+this is where I study:
+![Caption](https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/98/2014/09/07214435/Signature_Stacked_Purple_Hex.png)
+
+this is a basica algebra equations: \(3x^2 + 12x - 23 = 0\)
+
+| Name | DOB    |
+|-----:|-------:|
+|Jody  |08-03-96|
+|Kathy |03-24-97|
+|Lynda |12-07-97|
+|Hang  |03-27-98|
+|Leah  |06-16-97|
+|Jess  |09-19-98|
+
+```{r, echo=TRUE}
+100/10+2
+100/(10+2)
+
+20*(10-3)
+50-187*(21/3)
+8+(12-4)/(9+5)
+
+x <- 8*3
+x + 10
+
+y <- 12-4
+z <- 6/2
+
+x^2+y^2+z^2
+(2*x+9)+(y-10)
+z+y+(z/3)
+
+task8 <- seq(1, 30)
+strings <- c("name","name","name")
+sum(task8)
+sum(strings)
+
+task9 <- seq(1, 5)
+task9_2 <- seq(6, 10)
+task9 + task9_2
+task9_3 <- task9 * task9_2
+
+task10 <- c(task9, task9_2)
+task10_2 <- rbind(task9, task9_2)
+matrix10 <- rbind(task10_2, task9_3)
+dataframe10 <- data.frame(task9, task9_2, task9_3)
+dataframe10
+```
+
+
